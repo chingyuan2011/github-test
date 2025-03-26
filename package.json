@@ -1,19 +1,18 @@
 {
   "name": "github-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chingyuan2011/github-test.git"
+  "dependencies": {
+    "vue": "^3.5.13"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chingyuan2011/github-test/issues"
-  },
-  "homepage": "https://github.com/chingyuan2011/github-test#readme"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  }
 }
